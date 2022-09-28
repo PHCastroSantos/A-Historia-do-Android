@@ -1,0 +1,155 @@
+
+@font-face {
+    font-family: 'Android';
+    src: url('IDroid.otf') format('opentype'); 
+    font-weight: normal;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #22cc7a, #1b5f3e);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 3px;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6FFCC;
+}
+
+p {
+    text-indent: 30px;
+    padding: 5px 0px 5px 0px;
+}
+
+main {
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0px 20px 0px 20px;
+}
+
+#titulolista {
+    text-align: center;
+    background-color: #042924;
+    color: white;
+    padding: 2px;
+    margin:  0px;
+    border-radius: 5px;
+}
+
+aside {
+    padding: 10px;
+    background-color:#c3ffe2;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: #064E45;
+    padding: 10px 0px 10px 10px; 
+    box-shadow: 2px 2px 5px black;
+    border-radius: 3px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav > a:hover {
+    background-color: #22cc7a;
+    color: #064E45;
+}
+
+#gradiente {
+    background-image: linear-gradient(to right, #69c2b4, white);
+    border-radius: 3px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequeno {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#video {
+    background-color: #064E45;
+    position: relative;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+}
+
+main h2 {
+    font-family: 'IDroid';
+    padding: 5px 0px 0px 5px;
+    margin: 0px;
+}
+
+main p {
+    text-align: justify;
+    line-height: 1em;
+}
+
+main strong {
+    color: #042924;
+}
+
+main a {
+    text-decoration: none;
+    color: #042924;
+    background-color: #22cc7a;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #0f7769;
+}
+
+#linkedin {
+    text-decoration: none;
+    color: rgb(63, 130, 253);
+}
+#linkedin:hover {
+    color: aqua;
+    text-decoration: underline;
+}
